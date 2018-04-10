@@ -1,15 +1,41 @@
-/* menu- primer vista */
-#logo-temporal{
+/* about- primer vista */
+
+#logo-temporal {
     height: 90%;
     width: 20%;
     padding-top: 4%
 }
 
 .tabs .tab a,
-.tabs .tab a.active{
+.tabs .tab a.active {
     color: #FFC107;
 }
 
-.tabs .indicator{
+.tabs .indicator {
     background-color: #FFC107;
+}
+
+/* about - main */
+
+#fly {
+    width: 100%;
+    height: 50%;
+}
+
+.slide-in-demo {
+    color: rgb(255, 193, 7);
+    position: absolute;
+    top: 7%;
+    width: 60%;
+    left: 5%;
+    text-align: left;
+    font-size: 2.5em;
+    animation: showup 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
 }

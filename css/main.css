@@ -1,1 +1,15 @@
+/* menu- primer vista */
+#logo-temporal{
+    height: 90%;
+    width: 20%;
+    padding-top: 4%
+}
 
+.tabs .tab a,
+.tabs .tab a.active{
+    color: #FFC107;
+}
+
+.tabs .indicator{
+    background-color: #FFC107;
+}

@@ -1,3 +1,35 @@
+/* general */
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* splash */
+#main {
+    display: none;
+}
+
+/*Estilos para vista splash*/
+
+#splash {
+    max-width: 1349px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.preloader-wrapper {
+    margin-left: 48vw;
+    margin-top: -10%;
+    position: absolute;
+}
+
+@media(max-width: 768px) {
+    #splash>.col>img {
+        width: 100vw;
+        height: 85vh;
+    }
+}
+
+
 /* about- primer vista */
 
 #logo-temporal {
@@ -40,4 +72,7 @@
     80% {opacity:1;}
     100% {opacity:0;}
 }
+
+/* tab: work  */
+
 
